@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.Contenedor{
+  background-color: rgba(31, 31, 31, 0.7);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+button {
+  border-radius: 10px;
+  border: 3px solid #4ed3ff;
+  cursor: pointer;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+  font-size:large;
+  font-weight: 600;
+  color: #4ed3ff;
+  background-color: #282c34;
+  padding: 10px 20px;
+}
+
+button:hover{
+  color: rgb(241, 241, 241);
+  background-color: #4ed3ff;
+}
